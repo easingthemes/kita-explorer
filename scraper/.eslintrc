@@ -6,7 +6,10 @@
     "import/no-extraneous-dependencies": "off",
     "import/no-unresolved": "off",
     "one-var": "off",
-    "no-console": "off"
+    "no-console": "off",
+    "dot-notation": "off",
+    "no-param-reassign": "off",
+    "newline-per-chained-call": "off"
   },
   "env": {
     "jest": true,
