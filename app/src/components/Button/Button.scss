@@ -1,0 +1,39 @@
+$this: 'button';
+
+.#{$this} {
+  padding: 0 15px;
+  border: 2px solid transparent;
+  text-align: center;
+  transition: .2s;
+  width: 154px;
+  height: 49px;
+  border-radius: 5px;
+  background-color: #4fba6f;
+  color: white;
+  font-family: Roboto-Bold;
+  font-size: 10px;
+  letter-spacing: 1.7px;
+  cursor: pointer;
+  box-shadow: 0 0 33px -1px rgba(0, 0, 0, 0.3);
+
+  &:hover,
+  &:focus {
+    transition: .5s;
+    color: #4fba6f;
+    border: 2px solid #4fba6f;
+    background: none;
+    box-shadow: none;
+    outline: none;
+  }
+
+  &--link {
+    display: inline-block;
+
+    .#{$this}__label {
+      display: block;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
